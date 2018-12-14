@@ -1,0 +1,42 @@
+.nav-wrap{
+	width: 300px;
+	position: fixed;
+	top:0;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	background: url(./../../public/assets/img/navBg.jpg) top center;
+	background-size:  100% auto;
+	color:#fff;
+	padding-top: 150px;
+	.head-pic{
+		width: 80px;
+		height: 80px;
+		border-radius: 50%;
+		border:5px solid #fff;
+	}
+	.name{
+		font-size:32px;
+		padding-top:30px;
+	}
+	.saying{
+		font-size:24px;
+		color: rgba(255,255,255,0.8);
+		padding-top:10px;
+	}
+	.add-artucle{
+		position: absolute;
+		bottom: 30px;
+		left: 50%;
+		margin-left: -15px;
+		width: 50px;
+		height: 50px;
+		color: #000;
+		text-align: center;
+		line-height: 50px;
+		border-radius: 50%;
+		font-size: 40px;
+		color: #fff;
+		border: 1px solid #fff;
+	}
+}
